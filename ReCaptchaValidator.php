@@ -114,7 +114,7 @@ class ReCaptchaValidator extends Validator
                 CURLOPT_POST => false,              //set to GET
                 CURLOPT_RETURNTRANSFER => true,     // return web page
                 CURLOPT_HEADER => false,            // don't return headers
-                CURLOPT_FOLLOWLOCATION => true,     // follow redirects
+                // CURLOPT_FOLLOWLOCATION => true,     // follow redirects
                 CURLOPT_ENCODING => '',             // handle all encodings
                 CURLOPT_AUTOREFERER => true,        // set referer on redirect
                 CURLOPT_CONNECTTIMEOUT => 120,      // timeout on connect
